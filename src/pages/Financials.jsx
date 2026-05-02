@@ -47,7 +47,7 @@ export default function Financials() {
       </section>
 
       {/* ── HONEST POSITION ── */}
-      <section className="s-pad" style={{ paddingTop: 0, background: 'var(--bone)' }}>
+      <section className="s-pad" style={{ background: 'var(--bone)' }}>
         <div className="container">
           <div className="honest">
             <div className="reveal">

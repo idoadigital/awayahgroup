@@ -41,14 +41,13 @@ const searchIndex = [
   // Governance
   { title: 'How We Operate', desc: 'A small team. Clear principles. Honest reporting. Built from day one to be ready for institutional capital.', path: '/governance', section: 'Governance' },
   { title: 'Radical Transparency', desc: 'We share what most pre-revenue companies hide: burn, runway, mistakes, and the metrics that keep us honest.', path: '/governance', section: 'Governance' },
-  { title: 'Founder Alignment', desc: 'All five founders are full-time, materially invested, and on below-market salaries. No side projects.', path: '/governance', section: 'Governance' },
+  { title: 'Founder Alignment', desc: 'Founding leadership and venture partners are fully committed, materially invested, and aligned on the long-horizon vision.', path: '/governance', section: 'Governance' },
   { title: 'Institutional Readiness', desc: 'Our reporting, compliance, and governance frameworks are designed for Series A scrutiny today.', path: '/governance', section: 'Governance' },
-  { title: 'Eric M. — Co-founder & CEO', desc: 'Former product lead at a Pan-African fintech. Holds the long-horizon view and runs the cap table.', path: '/governance', section: 'Governance' },
-  { title: 'Aline K. — Co-founder & CTO', desc: 'Built logistics platforms for two African on-demand companies. Owns the engineering org.', path: '/governance', section: 'Governance' },
-  { title: 'Patrick N. — Chief Operating Officer', desc: 'Eight years in field operations across Rwanda. Runs partner ops, fleet, and merchant onboarding.', path: '/governance', section: 'Governance' },
-  { title: 'Diane U. — Head of Finance', desc: 'Former auditor (Big Four) with focus on emerging-market fintech reporting. Owns disclosure quality.', path: '/governance', section: 'Governance' },
-  { title: 'Jean-Paul R. — Head of Product', desc: 'Designed two consumer apps shipped at scale. Owns cross-vertical product strategy.', path: '/governance', section: 'Governance' },
-  { title: 'Sandra B. — Head of Growth', desc: 'Built referral & CAC engines at a leading East African super app. Owns user acquisition.', path: '/governance', section: 'Governance' },
+  { title: 'Shema Honests — CEO & Co-Founder, Awayah E-commerce', desc: 'Founder of Moving Maestros. Leads company vision, fundraising strategy, and executive operations across all Awayah verticals.', path: '/governance', section: 'Governance' },
+  { title: 'Ndwaniye Iddy Karebu — President & Founder, Awayah E-commerce', desc: 'Co-founder of Moving Maestros. Oversees operational infrastructure, partner networks, and market expansion across Rwanda.', path: '/governance', section: 'Governance' },
+  { title: 'Stephen Munabo — CTO & Co-Founder, IncPeople Kigali', desc: 'Technology & Platform Strategy, Awayah E-commerce. Leads product architecture, engineering, and the technical roadmap.', path: '/governance', section: 'Governance' },
+  { title: 'Richard Akwo — CEO, IncPeople Kigali', desc: 'Strategic Partnerships & Investor Relations, Awayah E-commerce. Manages capital strategy and governance frameworks.', path: '/governance', section: 'Governance' },
+  { title: 'Serge Laurent Dibao — President & Co-Founder, IncPeople Kigali', desc: 'Growth & Operations Strategy, Awayah E-commerce. Drives market expansion, business development, and operational scaling.', path: '/governance', section: 'Governance' },
   { title: 'Cap Table', desc: 'Founders & team: 68%, Seed investors: 22%, Advisor pool: 5%, ESOP reserve: 5%.', path: '/governance', section: 'Governance' },
 
   // Resources

@@ -4,12 +4,11 @@ import SubHero from '../components/SubHero'
 import logoLime from '../assets/awayah-lime-logo.png'
 import logoBlack from '../assets/awayah-black-logo.png'
 import subheroBg from '../assets/siteimages/web/brand-flatlay.webp'
-import imgChauffeur from '../assets/siteimages/web/chauffeur-arrival.webp'
-import imgAppUserWalking from '../assets/siteimages/web/app-user-walking.webp'
-import imgRiderCityscape from '../assets/siteimages/web/rider-cityscape.webp'
-import imgPremiumFlatlay from '../assets/siteimages/web/premium-flatlay.webp'
-import imgRooftopCouple from '../assets/siteimages/web/rooftop-couple.webp'
-import imgShopperPhone from '../assets/siteimages/web/shopper-phone.webp'
+import imgShema from '../assets/siteimages/team/Shema-Hortense.png'
+import imgIddy from '../assets/siteimages/team/Ndwaniye-Iddy-Karebu.png'
+import imgStephen from '../assets/siteimages/team/Stephen-Munabo.png'
+import imgRichard from '../assets/siteimages/team/Richard-Akwo.png'
+import imgSerge from '../assets/siteimages/team/Serge-Laurent-Dibao.png'
 
 export default function Governance() {
   useReveal()
@@ -67,62 +66,71 @@ export default function Governance() {
         </div>
       </section>
 
-      {/* ── LEADERSHIP ── */}
-      <section className="s-pad" style={{ paddingTop: 0, background: 'var(--bone)' }}>
+      {/* ── LEADERSHIP & VENTURE PARTNERS ── */}
+      <section className="s-pad" style={{ background: 'var(--bone)' }}>
         <div className="container">
-          <div style={{ maxWidth: '600px' }}>
-            <div className="section-eye reveal">Leadership</div>
-            <h2 className="section-h-lg reveal d1" style={{ marginTop: '14px' }}>The founding team.</h2>
-            <p className="reveal d2" style={{ fontSize: '16px', color: 'var(--mute)', marginTop: '18px', lineHeight: 1.65 }}>Five operators with backgrounds across mobility, fintech, logistics, and consumer product. All currently full-time, all materially invested.</p>
+          <div style={{ maxWidth: '740px' }}>
+            <div className="section-eye reveal">Leadership &amp; Venture Partners</div>
+            <h2 className="section-h-lg reveal d1" style={{ marginTop: '14px' }}>The people building Awayah.</h2>
+            <p className="reveal d2" style={{ fontSize: '16px', color: 'var(--mute)', marginTop: '18px', lineHeight: 1.65 }}>Awayah E-commerce is operated under the Moving Maestros business foundation and supported by IncPeople Kigali as a strategic venture-building partner. Together, the teams are repositioning Moving Maestros into a broader e-commerce, logistics, and digital commerce platform for Rwanda and beyond.</p>
           </div>
 
-          <div className="team-grid">
+          {/* ── Founding Leadership ── */}
+          <div style={{ marginTop: '56px' }}>
+            <div className="section-eye reveal" style={{ color: 'var(--ink)', opacity: 0.5 }}>Founding Leadership</div>
+          </div>
+          <div className="team-grid" style={{ marginTop: '24px' }}>
             <div className="person reveal">
-              <div className="photo" style={{ position: 'relative', background: `url(${imgChauffeur}) center/cover no-repeat` }}></div>
+              <div className="photo" style={{ position: 'relative', background: `url(${imgShema}) center top/cover no-repeat` }}></div>
               <div className="body">
-                <h4>Eric M.</h4>
-                <div className="role">Co-founder &amp; CEO</div>
-                <p>Former product lead at a Pan-African fintech. Holds the long-horizon view and runs the cap table.</p>
+                <h4>Shema Honests</h4>
+                <div className="role">CEO &amp; Founder</div>
+                <div className="role-org">Awayah E-commerce</div>
+                <p>Founder of Moving Maestros. Leads company vision, fundraising strategy, and day-to-day executive operations across all Awayah verticals.</p>
               </div>
             </div>
             <div className="person reveal d1">
-              <div className="photo" style={{ background: `url(${imgAppUserWalking}) center/cover no-repeat` }}></div>
+              <div className="photo" style={{ background: `url(${imgIddy}) center top/cover no-repeat` }}></div>
               <div className="body">
-                <h4>Aline K.</h4>
-                <div className="role">Co-founder &amp; CTO</div>
-                <p>Built logistics platforms for two African on-demand companies before Awayah. Owns the engineering org.</p>
+                <h4>Ndwaniye Iddy Karebu</h4>
+                <div className="role">President &amp; Founder</div>
+                <div className="role-org">Awayah E-commerce</div>
+                <p>Co-founder of Moving Maestros. Oversees operational infrastructure, partner networks, and market expansion across Rwanda.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* ── Venture Building Partner ── */}
+          <div style={{ marginTop: '64px' }}>
+            <div className="section-eye reveal" style={{ color: 'var(--ink)', opacity: 0.5 }}>Venture Building Partner</div>
+            <p className="reveal d1" style={{ fontSize: '15px', color: 'var(--mute)', marginTop: '12px', lineHeight: 1.65, maxWidth: '600px' }}>IncPeople Kigali &mdash; strategic venture-building partner supporting Awayah across technology, growth, operations, and investor readiness.</p>
+          </div>
+          <div className="team-grid" style={{ marginTop: '24px' }}>
+            <div className="person reveal">
+              <div className="photo" style={{ background: `url(${imgSerge}) center top/cover no-repeat` }}></div>
+              <div className="body">
+                <h4>Serge Laurent Dibao</h4>
+                <div className="role">President &amp; Founder</div>
+                <div className="role-org">IncPeople Kigali</div>
+                <p>Growth &amp; Operations Strategy, Awayah E-commerce. Drives market expansion, business development, and operational scaling across Kigali.</p>
+              </div>
+            </div>
+            <div className="person reveal d1">
+              <div className="photo" style={{ background: `url(${imgStephen}) center top/cover no-repeat` }}></div>
+              <div className="body">
+                <h4>Stephen Munabo</h4>
+                <div className="role">CTO &amp; Founder</div>
+                <div className="role-org">IncPeople Kigali</div>
+                <p>Technology &amp; Platform Strategy, Awayah E-commerce. Leads product architecture, engineering, and the technical roadmap powering all verticals.</p>
               </div>
             </div>
             <div className="person reveal d2">
-              <div className="photo" style={{ background: `url(${imgRiderCityscape}) center/cover no-repeat` }}></div>
+              <div className="photo" style={{ background: `url(${imgRichard}) center top/cover no-repeat` }}></div>
               <div className="body">
-                <h4>Patrick N.</h4>
-                <div className="role">Chief Operating Officer</div>
-                <p>Eight years in field operations across Rwanda. Runs partner ops, fleet, and merchant onboarding.</p>
-              </div>
-            </div>
-            <div className="person reveal d3">
-              <div className="photo" style={{ background: `url(${imgPremiumFlatlay}) center/cover no-repeat` }}></div>
-              <div className="body">
-                <h4>Diane U.</h4>
-                <div className="role">Head of Finance</div>
-                <p>Former auditor (Big Four) with a focus on emerging-market fintech reporting. Owns disclosure quality.</p>
-              </div>
-            </div>
-            <div className="person reveal d4">
-              <div className="photo" style={{ background: `url(${imgRooftopCouple}) center/cover no-repeat` }}></div>
-              <div className="body">
-                <h4>Jean-Paul R.</h4>
-                <div className="role">Head of Product</div>
-                <p>Designed two consumer apps shipped at scale. Owns the cross-vertical product strategy.</p>
-              </div>
-            </div>
-            <div className="person reveal d5">
-              <div className="photo" style={{ background: `url(${imgShopperPhone}) center/cover no-repeat` }}></div>
-              <div className="body">
-                <h4>Sandra B.</h4>
-                <div className="role">Head of Growth</div>
-                <p>Built referral &amp; CAC engines at a leading East African super app. Owns user acquisition.</p>
+                <h4>Richard Akwo</h4>
+                <div className="role">CEO</div>
+                <div className="role-org">IncPeople Kigali</div>
+                <p>Strategic Partnerships &amp; Investor Relations, Awayah E-commerce. Manages capital strategy, institutional relationships, and governance frameworks.</p>
               </div>
             </div>
           </div>
